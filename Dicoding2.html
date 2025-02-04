@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Alam di Garut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at 30% 107%, hsl(205, 100%, 50%) 20%, #0059ff 45%, #1f2435 90%);
+            color: #333;
+        }
+         header {
+    background-image: url('suungai.jpeg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        article {
+            flex: 3;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background: radial-gradient(circle at 30% 107%, hsl(205, 100%, 50%) 20%, #00d0ff 45%, #1f2435 90%);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            article, aside {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wisata Alam di Garut</h1>
+    <p>Temukan keindahan alam Indonesia yang menakjubkan!</p>
+</header>
+
+<main>
+    <article>
+        <h2>Batu Lempar</h2>
+        <p>Objek wisata alam Batu Lempar berada di Desa Lebak Agung Kecamatan Karangpawitan Kabupaten Garut. Lokasinya tidak jauh dari situs bersejarah Makam Godog.</p>
+        <p>Dari Garut Kota, wisatawan hanya memerlukan waktu sekitar 30 menit untuk sampai ke objek wisata alam Batu Lempar.</p>
+        <p>Objek wisata alam Batu Lempar merupakan objek wista yang dikelola oleh desa dan masyarakat sekitar. Dengan demikian, tiket masuknya cukup terjangkau.<P>
+        <p>Tiket masuk objek wisata alam Batu Lempar sebesar Rp 5.000 per orang plus biaya parkir sebesar Rp 5.000 per kendaraan.</p>
+        <p>Di objek wisata alam Batu Lempar itu pengunjung bisa menikmati fasilitas gazebo, tempat lesehan, warung, musala, dan toilet.</P>
+        <P>“Sekarang ada gazebo 2 dan tempat lesehan 6. Ini bantuan dari pemda oleh bupati,” kata salah seorang pengelola Siti Masitoh kepada Radartasik.id pada Jumat 30 Juni 2023.</P>
+        <P>Selain untuk rekreasi, objek wisata alam Batu Lempar juga bisa dijadikan tempat camping. Suasana alam yang asri, pohon-pohon pinus yang rindang, dan aliran sungai akan memanjakan wisatawan yang berkemah.</p>
+        <img src="batu.jpg" alt="Wisata">
+        </article>
+
+    <aside>
+        <h2>Profil Penulis</h2>
+        <img src="c:\Users\zidan\Downloads\461532346_1486648525156400_2286507301421140241_n.jpg" alt="Foto Penulis">
+        <p>Nama: Salman Ilyas Alfarizi</p>
+        <p>Hobi: Menulis, Menggambar, dan traveling.</p>
+        <p>Kontak: altaviavi@gmail.com</p>
+        <h2>Batu Lempar</h2>
+        <img src="Batu-Lempar-Garut.jpg" alt="Wisata Batu Lempar">
+    </aside>
+</main>
+
+<div class="dropdown">
+    <button>Menu</button>
+    <div class="dropdown-content">
+        <a href="Dicoding2.html">Batu Lempar</a>
+        <a href="Dayeuhmanggung.html">Dayeuh Manggung</a>
+        <a href="CandiCangkuang.html">Candi Cangkuang</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Wisata Alam di Garut. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>

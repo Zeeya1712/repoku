@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Alam di Garut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at 30% 107%, rgb(32, 175, 24) 20%, rgb(51, 207, 42) 5%, #00ff15 45%, 60%, #39b233 75%);
+    background: -webkit-radial-gradient(circle at 30% 107%, #05bd09 0%, rgb(39, 202, 52) 5% 5%, hsl(115, 78%, 49%) 45%, #19a411 5% 60%, hsl(135, 83%, 30%) 90%);
+            color: #333;
+        }
+        header {
+    background-image: url('Bukit.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        article {
+            flex: 3;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background: radial-gradient(circle at 30% 107%, hsl(130, 62%, 75%) 20%, #3c4560 45%, #1f2435 90%);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            article, aside {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wisata Alam di Garut</h1>
+    <p>Temukan keindahan alam Indonesia yang menakjubkan!</p>
+</header>
+
+<main>
+    <article>
+        <h2>Dayeuhmanggung</h2>
+        <p>Dayeuhmanggung adalah desa di kecamatan Cilawu, Garut, Jawa Barat, Indonesia.</p>
+        <p>Desa Dayeuhmanggung merupakan desa yang memiliki potensi keindahan alam yang luar biasa. Selain itu, kehidupan masyarakat desa Dayeuhmanggung yang harmonis menjadi salah satu daya tarik sendiri.</p>
+        <p>Saat ini, Desa Dayeuhmanggung kerap dijadikan sebagai "main gate" bagi para pendaki yang hendak ke Gunung Cikuray. Sehingga sedikit banyaknya berimplikasi pada peningkatan perekonomian warga setempat.</p>
+        <p>Selain sebagai gerbang masuk menuju Gunung Cikuray, kini Desa Dayeuhmanggung juga tengah berupaya untuk menjadi Desa Wisata dengan sentra kue dan roti sebagai produk unggulan. Desa Dayeuhmanggung kini tengah dipimpin oleh Kepala Desa Darmawan yang sudah menjabat dua periode (2007-2014 dan 2015-2021). Selama masa kepempinannya, beliau berhasil membuat banyak terobosan dan pembangunan infrastruktur yang sangat bermanfaat bagi warga desa.</p>
+        <p>Mulai dari jalan, pembangunan saluran irigasi, pembangunan tembok penahan tanah, pelindungan terhadap sumber mata air dan meningkatkan kemandirian warga melalui kegiatan usaha, seperti usaha kue dan roti.</p>
+        <h2>Bisa dijadikan tempat berkemah</h2>
+        <img src="kemah.jpg" alt="Kemah di tempat wisata">
+  
+    </article>
+
+    <aside>
+        <h2>Profil Penulis</h2>
+        <img src="c:\Users\zidan\Downloads\461532346_1486648525156400_2286507301421140241_n.jpg" alt="Foto Penulis">
+        <p>Nama: Salman Ilyas Alfarizi</p>
+        <p>Hobi: Menulis, Menggambar, dan traveling.</p>
+        <p>Kontak: altaviavi@gmail.com</p>
+        <h2>Dayeuhmanggung</h2>
+        <img src="Dayeuhmanggung.jpg" alt="Wisata Dayeuhmanggung">
+    </aside>
+</main>
+
+<div class="dropdown">
+    <button>Menu</button>
+    <div class="dropdown-content">
+        <a href="Dicoding2.html">Batu Lempar</a>
+        <a href="Dayeuhmanggung.html">Dayeuh Manggung</a>
+        <a href="CandiCangkuang.html">Candi Cangkuang</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Wisata Alam di Garut. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>

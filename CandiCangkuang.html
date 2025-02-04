@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisata Alam di Garut</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: radial-gradient(circle at 30% 107%,     hsl(0, 0%, 0%) 20%, #3c4560 45%, #1f2435 90%);
+            color: #333;
+        }
+        header {
+    background-image: url('gunung.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 1.5em;
+    text-align: center;
+}
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        main {
+            display: flex;
+            flex-direction: row;
+            padding: 20px;
+            flex-wrap: wrap;
+        }
+        article {
+            flex: 3;
+            padding: 20px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        aside {
+            flex: 1;
+            padding: 20px;
+            margin: 10px;
+            background: radial-gradient(circle at 30% 107%, hsl(0, 0%, 100%) 20%, #7b88b0 45%, #8597d3 90%);
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            main {
+                flex-direction: column;
+            }
+            article, aside {
+                flex: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Wisata Alam di Garut</h1>
+    <p>Temukan keindahan alam Indonesia yang menakjubkan!</p>
+</header>
+
+<main>
+    <article>
+        <h2>CandiCangkuang</h2>
+        <p>Menurut Cerita Tokoh Masyarakat kami Desa Cangkuang terbentuk sejak Tahun 1800-an karena Desa Cangkuang terlalu besar lalu di mekarkan dengan Desa Nanjung Mekar.
+            <p>mengapa disebut desa Cangkuang karena banyak tumbuh pohon Cangkuang di Kampung kami dan tujuan di dirikannya Pemerintah Desa untuk memudahkan sarana dan prasarana Pelayanan Publik pada saat itu beranggapan bahwa Desa kami akan maju dan berdiri seperti halnya Desa – Desa yang lainnya</p>
+            <p> Bojong Menje: Kp. Bojong Menje Rw. 02 Desa Cangkuang Kecamatan Rancaekek Kabupaten Bandung</p>
+            <p>Candi Cangkuang adalah candi Hindu yang berada di Jawa Barat, tepatnya di Kampung Pulo, wilayah Cangkuang, Kecamatan Leles, Garut. Bangunan ini merupakan candi yang pertama kali ditemukan di tanah Sunda dan menjadi candi Hindu satu-satunya di Sunda. Candi Cangkuang merupakan peninggalan kerajaan Sunda pertama yaitu Kerajaan Galuh. Meski bercorak Hindu, di dekat lokasi Candi Cangkuang terletak makam Embah Dalem Arief Muhammad, yaitu pemuka agama Islam yang dipercaya sebagai leluhur penduduk Desa Cangkuang. Nama Candi Cangkuang diambil dari nama desa tempat candi ini berada. Kata 'Cangkuang' sendiri adalah nama tanaman sejenis pandan, yang banyak terdapat di sekitar makam Arief Muhammad.</p>
+            <h2>Kampung Pulo</h2>
+            <img src="kampung.jpg.webp" alt="Kampung Pulo">  
+    </article>
+
+    <aside>
+        <h2>Profil Penulis</h2>
+        <img src="c:\Users\zidan\Downloads\461532346_1486648525156400_2286507301421140241_n.jpg" alt="Foto Penulis">
+        <p>Nama: Salman Ilyas Alfarizi</p>
+        <p>Hobi: Menulis, Menggambar, dan traveling.</p>
+        <p>Kontak: altaviavi@gmail.com</p>
+        <h2>CandiCangkuang</h2>
+        <img src="Candi Cangkuang.jpg" alt="Wisata CandiCangkuang">
+    </aside>
+</main>
+
+<div class="dropdown">
+    <button>Menu</button>
+    <div class="dropdown-content">
+        <a href="Dicoding2.html">Batu Lempar</a>
+        <a href="Dayeuhmanggung.html">Dayeuh Manggung</a>
+        <a href="CandiCangkuang.html">Candi Cangkuang</a>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Wisata Alam di Garut. Semua hak dilindungi.</p>
+</footer>
+
+</body>
+</html>
